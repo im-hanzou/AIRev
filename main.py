@@ -62,7 +62,7 @@ class ProxyManager:
 class KeywordGenerator:
     def __init__(self, api_key: str, existing_sentences: Set[str] = None):
         self.api_key = api_key
-        self.gemini_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
+        self.gemini_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?"
         self.headers = {'Content-Type': 'application/json'}
         self.existing_sentences = existing_sentences or set()
 
