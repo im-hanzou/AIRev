@@ -37,18 +37,18 @@ git clone https://github.com/im-hanzou/AIRev
 ```bash
 cd AIRev
 ```
-- Install requirements
+- Install requirements:
 ```bash
 python -m pip install -r requirements.txt
 ```
 #### 4. Run the tool
-- Open and edit `.env` file with your **YOUR_GOOGLE_CONSOLE_API_KEY**, **YOUR_CSE_ID** and your **Proxy**, example :
+- Open and edit `.env` file with your **YOUR_GOOGLE_CONSOLE_API_KEY**, **YOUR_CSE_ID** and your **Proxy**, example:
 ```bash
 API_KEY=AIzaSyBbQjuKw57XXXXXXX
 CSE_ID=e19764fxxxxxxx
 PROXY_URL=http://your:proxy@ip:port
 ```
-- Run the tool :
+- Run the tool:
 ```bash
 python main.py
 ```
