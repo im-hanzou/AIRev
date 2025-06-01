@@ -52,7 +52,7 @@ PROXY_URL=http://your:proxy@ip:port
 ```bash
 python main.py
 ```
-## 📌 Notes
+## Notes
 - You can just run this tool at **your own risk**, **I'm not responsible for any loss or damage caused by this tool**.
 - This tool is for **educational** purposes only.
 - The API has a **free quota of 100 queries per day**. If exceeded, billing needs to be enabled.
