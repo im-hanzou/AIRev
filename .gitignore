@@ -1,3 +1,8 @@
+# Files
+ips.txt
+reversed-domains.txt
+sentences.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
