@@ -1,5 +1,5 @@
 # AIRev
-AIRev – Auto Reverse IP using Gemini AI for automatic keyword generation and Google Search to fetch IPs. To use this tool, you need to set up the **Google Custom Search API** and **Gemini AI** and obtain an **API Key** and **Custom Search Engine ID (CSE ID)**.
+AIRev – Auto Reverse IP using Gemini AI for automatic keyword generation and Google Search to fetch IPs. This script is used to get a bulk domain list. To use this tool, you need to set up the **Google Custom Search API** and **Gemini AI** and obtain an **API Key** and **Custom Search Engine ID (CSE ID)**.
 ### Tools and components required
 - VPS or RDP (OPTIONAL), Get free $200 credit [DigitalOcean](https://m.do.co/c/3f132e0f7e13) for 60 days here: [Register](https://m.do.co/c/3f132e0f7e13)
 - Rotating Proxies for bypass Rate Limit. You can buy at [here](https://proxyscrape.com/?ref=odk1mmj) or [here](https://app.proxy-cheap.com/r/JysUiH)
@@ -42,11 +42,10 @@ cd AIRev
 python -m pip install -r requirements.txt
 ```
 #### 4. Run the tool
-- Open `.env`
-- Edit this file with your **YOUR_GOOGLE_CONSOLE_API_KEY**, **YOUR_CSE_ID** and your **Proxy**  :
+- Open and edit `.env` file with your **YOUR_GOOGLE_CONSOLE_API_KEY**, **YOUR_CSE_ID** and your **Proxy**, example :
 ```bash
-API_KEY=YOUR_GOOGLE_CONSOLE_API_KEY
-CSE_ID=YOUR_CSE_ID
+API_KEY=AIzaSyBbQjuKw57XXXXXXX
+CSE_ID=e19764fxxxxxxx
 PROXY_URL=http://your:proxy@ip:port
 ```
 - Run the tool :
